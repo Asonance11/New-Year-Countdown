@@ -35,3 +35,18 @@ h1 {
 .time h2 {
 	font-size: 36px;
 }
+
+@media (max-width: 500px) {
+	h1 {
+		font-size: 45px;
+	}
+	.time {
+		margin: 5px;
+	}
+	.time h2 {
+		font-size: 12px;
+	}
+	.time p {
+		font-size: 10px;
+	}
+}
